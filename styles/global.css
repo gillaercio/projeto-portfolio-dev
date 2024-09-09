@@ -19,4 +19,14 @@
   --gray-400: #878EA1;
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
+
+  --asap: "Asap", sans-serif;
+  --inconsolata: "Inconsolata", monospace;
+  --maven: "Maven Pro", sans-serif;
+  --title-lg: bold 56px/120% var(--asap);
+  --title-md: bold 24px/120% var(--asap);
+  --title-sm: bold 16px/120% var(--asap);
+  --subtitle: 20px/120% var(--inconsolata);
+  --text-md: 16px/140% var(--maven);
+  --text-sm: 14px/140% var(--maven);
 }
