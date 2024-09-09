@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#intro {
+  background-image: url(../assets/images/Background_Intro.png);
+}
+
+.info {
+  max-width: 1040px;
+  margin: auto;
+}
+
+.info header {
+  width: 680px;
+  margin: auto;
+}
