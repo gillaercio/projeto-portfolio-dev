@@ -2,10 +2,11 @@
 
 #intro {
   background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
 }
 
 .info {
-  max-width: 1040px;
+  /* max-width: 1040px; */
   margin: auto;
   padding-block: 120px;
 }
@@ -64,23 +65,32 @@
   color: var(--red);
 }
 
-/* .tags {
+.tags {
+  /* align-items: center; */
   margin: auto;
+  /* justify-content: center; */
+  width: 754px;
+
 }
 
 .tags ul {
   display: flex;
   gap: 16px;
-  align-items: center;
-  font: var(--text-md);
-  color: var(--gray-500);
+}
+
+.tags ul li {
+  border-radius: 999px;
+  padding: 8px 16px;
+  background-color: var(--gray-300);
 }
 
 .tags ul li span {
-  vertical-align: top;
+  font: var(--text-md);
+  color: var(--gray-500);
 }
 
 .tags img {
   width: 24px;
   height: 24px;
-} */
+  vertical-align: middle;
+}
