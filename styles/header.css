@@ -10,7 +10,7 @@
   margin: auto;
   padding-block: 120px 94px;
   
-  header {
+  .header {
     display: block;
     max-width: 680px;
     margin: auto;
