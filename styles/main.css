@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 72px 120px 144px;
+  padding: 72px 163px 144px;
   gap: 56px;
 
   .top-text {
@@ -23,6 +23,48 @@
     span {
       font: var(--title-md);
       color: var(--gray-600);
+    }
+  }
+
+  .container {
+    margin: auto;
+
+    .grid {
+      width: 1040px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+
+      figure {
+        width: 330px;
+        height: 280px;
+        padding: 12px;
+        background-color: var(--gray-300);
+        border-radius: 12px;
+
+        img {
+          width: 306px;
+          height: 156px;
+          border-radius: 8px;
+          border: 1px solid var(--gray-200);
+        }
+
+        .content {
+          padding-block: 20px 5px;
+
+          span {
+            font: var(--title-sm);
+            color: var(--gray-600);
+            padding: 4px;
+          }
+
+          p {
+            font: var(-text-sm);
+            color: var(--gray-500);
+            padding: 4px;
+          }
+        }
+      }
     }
   }
 }
