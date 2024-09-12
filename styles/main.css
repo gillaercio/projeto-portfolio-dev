@@ -33,7 +33,7 @@
       grid-template-columns: 1fr 1fr 1fr;
       gap: 24px;
 
-      figure {
+      .card {
         width: 330px;
         height: 280px;
         padding: 12px;
@@ -62,6 +62,10 @@
             padding: 4px;
           }
         }
+      }
+
+      .card:hover {
+        border: 1.5px solid var(--gray-400);
       }
     }
   }
