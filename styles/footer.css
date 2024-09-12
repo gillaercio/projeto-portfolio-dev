@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#contact {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+
+  .top-text {
+    width: 420px;
+    margin: auto;
+    padding-block: 128px 48px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    h2 {
+      font: var(--subtitle);
+      color: var(--purple);
+    }
+
+    span {
+      font: var(--title-md);
+      color: var(--gray-600);
+    }
+
+    p {
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
+
+  .links {
+    width: 400px;
+    margin: auto;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .social-button {
+      background-color: var(--gray-300);
+      border-radius: 8px;
+      display: flex;
+      padding: 20px;
+      justify-content: space-between;
+
+      img {
+        width: 23px;
+        height: 23px;
+      }
+
+      :nth-child(2) img {
+        width: 20px;
+        height: 20px;
+      }
+
+      span {
+        padding-left: 12px;
+        color: var(--gray-500);
+      }
+      
+    }
+  }
+}
