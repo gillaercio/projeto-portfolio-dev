@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#services {
+  background-color: var(--gray-100);
+
+  .top-text {
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    gap: 8px;
+    
+    h2 {
+      font: var(--subtitle);
+      color: #E3646E;
+    }
+
+    span {
+      font: var(--title-md);
+      color: var(--gray-600);
+    }
+  }
+
+  
+}
