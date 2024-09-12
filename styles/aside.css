@@ -2,11 +2,16 @@
 
 #services {
   background-color: var(--gray-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 
   .top-text {
-    /* display: flex;
-    flex-direction: column; */
     text-align: center;
+    width: 355px;
+    padding-block: 88px 56px;
     gap: 8px;
     
     h2 {
@@ -20,5 +25,38 @@
     }
   }
 
-  
+  .grid {
+    width: 888px;
+    display: grid;
+    padding-bottom: 120px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+
+    figure {
+      width: 280px;
+      height: 155px;
+      padding: 20px;
+      border: 2px solid var(--gray-200);
+      border-radius: 12px;
+
+      img {
+        width: 48px;
+        height: 33px;
+      }
+
+      .content {
+        padding-top: 20px;
+
+        span {
+          font: var(--title-sm);
+          color: var(--gray-600);
+        }
+
+        p {
+          font: var(-text-sm);
+          color: var(--gray-500);
+        }
+      }
+    }
+  }
 }
