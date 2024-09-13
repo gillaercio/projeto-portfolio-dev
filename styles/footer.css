@@ -49,16 +49,16 @@
         height: 23px;
       }
 
-      :nth-child(2) img {
+      .arrow {
         width: 20px;
         height: 20px;
       }
 
       span {
         padding-left: 12px;
+        vertical-align: top;
         color: var(--gray-500);
-      }
-      
+      }      
     }
   }
 }
