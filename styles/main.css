@@ -6,8 +6,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 72px 163px 144px;
-  gap: 56px;
+  /* padding: 72px 163px 144px; */
+  padding-bottom: 100px;
+  gap: 36px;
 
   .top-text {
     text-align: center;
@@ -31,18 +32,18 @@
       width: 1040px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 24px;
+      gap: 14px;
 
       .card {
-        width: 330px;
-        height: 280px;
+        max-width: 330px;
+        max-height: 280px;
         padding: 12px;
         background-color: var(--gray-300);
         border-radius: 12px;
 
         img {
-          width: 306px;
-          height: 156px;
+          max-width: 306px;
+          max-height: 156px;
           border-radius: 8px;
           border: 1px solid var(--gray-200);
         }

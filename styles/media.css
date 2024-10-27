@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1200px) and (min-width: 919px) {
+  #projects {  
+    .container {
+      margin: auto;
+
+      .grid {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) and (min-width: 770px) {
+  #projects {  
+    .container {
+      margin: auto;
+
+      .grid {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+    }
+  }
+
+  #services {  
+    .top-text {
+      text-align: center;
+      width: 345px;
+    }
+  
+    .grid {
+      width: 80vw;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+  
+      .card {
+        width: 260px;
+        height: 155px;
+        padding: 10px;
+  
+        img {
+          width: 40px;
+          height: 25px;
+        }
+      }
+    }
+  }
+}
