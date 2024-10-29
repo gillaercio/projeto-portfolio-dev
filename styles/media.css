@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 1200px) and (min-width: 919px) {
+@media screen and (max-width: 1200px) and (min-width: 921px) {
   #projects {  
     .container {
       margin: auto;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 920px) and (min-width: 770px) {
+@media screen and (max-width: 920px) and (min-width: 771px) {
   #projects {  
     .container {
       margin: auto;
@@ -52,5 +52,175 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 770px) and (min-width: 461px) {
+  .tags {
+    width: 100vw;
+    
+    ul {
+      display: block;
+      
+      li {
+        padding-block: 16px;
+        width: 400px;
+        margin: auto;
+      }
+    }
+  }
+
+  #projects {  
+    .container {
+      margin: auto;
+
+      .grid {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+    }
+  }
+
+  #services {  
+    .top-text {
+      text-align: center;
+      width: 345px;
+    }
+  
+    .grid {
+      width: 80vw;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+  
+      .card {
+        width: 260px;
+        height: 155px;
+        padding: 10px;
+  
+        img {
+          width: 40px;
+          height: 25px;
+        }
+      }
+    }
+  }  
+}
+
+@media screen and (max-width: 460px) {
+  .info {    
+    .header {
+      .avatar {
+        margin-inline: 214px;
+      }
+      
+      .top-text {
+        h2{
+          font: var(--title-sm);
+        }
+  
+        h1 {
+          font: var(--title-md);    
+        }
+      }
+    }
+  }
+
+  .tags {
+    width: 100vw;
+    
+    ul {
+      display: block;
+      
+      li {
+        padding-block: 16px;
+        width: 300px;
+        margin: auto;
+      }
+    }
+  }
+
+  #projects {
+    .top-text {
+      span {
+        font: var(--subtitle);
+      }
+    }
+    
+    .container {
+      margin: auto;
+
+      .grid {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 14px;
+
+        .card {
+          max-width: 310px;
+          max-height: 260px;
+  
+          img {
+            max-width: 266px;
+            max-height: 116px;
+          }
+  
+          .content {
+            span {
+              padding: 3px;
+            }
+  
+            p {
+              padding: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #services {  
+    .top-text {
+      text-align: center;
+      width: 345px;
+
+      span {
+        font: var(--subtitle);
+      }
+    }
+  
+    .grid {
+      width: 80vw;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+  
+      .card {
+        width: 260px;
+        height: 155px;
+        padding: 10px;
+  
+        img {
+          width: 40px;
+          height: 25px;
+        }
+      }
+    }
+  }
+  
+  #contact {
+    .top-text {
+      width: 300px;
+  
+      span {
+        font: var(--title-sm);
+      }
+    }
+  
+    .links {
+      width: 300px;    
+      }
   }
 }
